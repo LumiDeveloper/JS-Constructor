@@ -1,0 +1,21 @@
+{
+  "name": "js_constructor",
+  "version": "1.0.0",
+  "description": "javascript pure app",
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/JS-Constructor-main/index.html -p 4200 --open",
+    "build": "parcel build ./src/JS-Constructor-main/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2",
+    "parcel-bundler": "^1.12.5"
+  }
+}
